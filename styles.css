@@ -1,1 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fbd6e3;
+    background-image: 
+        linear-gradient(90deg, rgba(255,255,255,.4) 50%, transparent 50%),
+        linear-gradient(rgba(255,255,255,.4) 50%, transparent 50%);
+    background-size: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1700px;
+    min-height: 900px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.barra-superior {
+    background-color: #fcdbe4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 30px;
+}
+.items-barra {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #6b4c4c;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.items-barra i {
+    font-size: 1.2rem;
+}
+.caratula {
+    padding: 100px 40px 0px;
+    text-align: center;
+    position: relative;
+}
+.icono-carrito {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    color: #6b4c4c;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.slogan {
+    font-size: 0.85rem;
+    color: #6b4c4c;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.logo-sugar {
+    font-size: 5.0rem;
+    font-weight: 900;
+    color: #ff5e97;
+    text-shadow: 2px 2px 0px #ffffff, 3px 3px 5px rgba(0,0,0,0.2);
+    letter-spacing: 2px;
+    line-height: 1;
+}
+.logo-rush {
+    font-size: 5.8rem;
+    font-weight: 900;
+    color: #5ce1e6;
+    text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff,
+         3px 3px 5px rgba(0,0,0,0.15);
+    letter-spacing: 3px;
+    line-height: 1;
+}
+.divisor {
+    color: #5ce1e6;
+    font-size: 2.8rem;
+    margin: 10px 0 30px;
+    letter-spacing: 3px;
+}
+.Tpos-de-postres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 40px 30px;
+}
+.postres {
+    text-align: center;
+}
+.cobertura-imagen {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.cobertura-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Titulo-postres {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #5c4040;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.divisor1 {
+    color: #8c7b7b;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
+.footer {
+    padding: 10px 40px 100px;
+    display: flex;
+    gap: 15px;
+}
 
+.red-social {
+    color: #5c4040;
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.red-social:hover {
+    color: #ff5e97;
+}
+@media (max-width: 650px) {
+    .Tpos-de-postres {
+        grid-template-columns: 1fr;
+    }
+    .barra-superior {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .icono-carrito {
+        right: 15px;
+        top: 10px;
+    }
+    .logo-sugar { font-size: 2.5rem; }
+    .logo-rush { font-size: 2.8rem; }
+}
+.nosotros {
+    display: flex;
+    align-items: center; 
+    gap: 30px;           
+    padding: 30px 40px;
+}
+.imagen-nosotros {
+    width: 100%;          
+    max-width: 750px;     
+    flex-shrink: 2;          
+}
+.imagen-nosotros img {
+    width: 100%;         
+    height: 300px;        
+    object-fit: cover;    
+    border-radius: 4px;
+    display: block;
+}
+.texto-nosotros {
+    flex: 1;             
+    color: #5c4040;
+}
+.texto-nosotros h2 {
+    font-size: 2.0rem;
+    margin-bottom: 10px;
+    color: #ff5e97;
+    text-align: center
+}
+.texto-nosotros p {
+    font-size: 1.7rem;    
+    line-height: 1.6;     
+}
+@media (max-width: 650px) {
+    .nosotros {
+        flex-direction: column;
+    }
+}
+.titulo-2 h3 {
+    font-family: 'Libre Bodoni', serif;
+    color:#4A5255;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nosotros2 {
+    display: flex;
+    align-items: center; 
+    gap: 30px;           
+    padding: 30px 40px;
+}
+.texto-nosotros2 {
+    flex: 1;             
+    color: #5c4040;
+}
+.texto-nosotros2 h2 {
+    font-size: 2.0rem;
+    margin-bottom: 10px;
+    color: #ff5e97;
+    text-align: center
+}
+.texto-nosotros2 p {
+    font-size: 1.7rem;   
+    line-height: 1.6;
+    margin-bottom: 50px;     
+}
+.redes-nosotros2 {
+    flex: 1;   
+    max-width: 600px; 
+    text-align: center; 
+    margin-bottom: 50px;       
+}
+.redes-nosotros2 h2{
+   font-size: 2.0rem;
+   margin-bottom: 10px;
+   color: #ff5e97;
+   text-align: center;
+}
+.divisor3 {
+    color: #B29F98;
+    font-size: 2.7rem;
+    margin: 10px 0 30px;
+    letter-spacing: 3px;
+    text-align: center
+}
+.gingham-divider {
+    width: 100%;
+    height: 35px; 
+    margin: 40px 0; 
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    background-color: #fbd6e3;
+    background-image: 
+        linear-gradient(90deg, rgba(255,255,255,.4) 50%, transparent 50%),
+        linear-gradient(rgba(255,255,255,.4) 50%, transparent 50%);
+    background-size: 30px 30px;
+
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05), 
+                inset 0 -2px 4px rgba(0, 0, 0, 0.05);
+}

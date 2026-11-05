@@ -3,143 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Tienda Online</title>
+    <title>Sugar Rush</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- CABECERA / BARRA DE NAVEGACIÓN -->
-    <header>
-        <h1>MiTienda.com</h1>
-        
-        <!-- Barra de búsqueda con selector de categorías -->
-        <form action="#" method="GET">
-            <select name="categoria">
-                <option value="todos">Todas las categorías</option>
-                <option value="tecnologia">Tecnología</option>
-                <option value="hogar">Hogar</option>
-                <option value="ropa">Ropa</option>
-            </select>
-            <input type="search" name="busqueda" placeholder="Buscar productos, marcas y más..." required>
-            <button type="submit">Buscar</button>
-        </form>
-
-        <!-- Accesos rápidos del usuario -->
-        <nav>
-            <ul>
-                <li><a href="#cuenta">Hola, Inicia sesión</a></li>
-                <li><a href="#compras">Mis Compras</a></li>
-                <li><a href="#favoritos">Favoritos (<span>0</span>)</a></li>
-                <li><a href="#carrito">🛒 Carrito (<span>2</span>)</a></li>
-            </ul>
+    <div class="contenedor">
+        <nav class="barra-superior">
+            <a href="#" class="items-barra">
+                <i class="fa-solid fa-store"></i>
+                <span>Tienda</span>
+            </a>
+            <a href="#" class="items-barra">
+                <i class="fa-regular fa-user"></i>
+                <span>Iniciar Sesión</span>
+            </a>
+            <a href="#" class="items-barra">
+                <i class="fa-solid fa-users"></i>
+                <span>Sobre Nosotros</span>
+            </a>
         </nav>
-    </header>
 
-    <!-- SECCIÓN DE FILTROS Y BÚSQUEDA (SIDEBAR) -->
-    <aside>
-        <h3>Filtros</h3>
-        
-        <section>
-            <h4>Categorías</h4>
-            <ul>
-                <li><a href="#">Electrónica (150)</a></li>
-                <li><a href="#">Computación (80)</a></li>
-                <li><a href="#">Ropa y Accesorios (220)</a></li>
-            </ul>
+        <section class="caratula">
+            <a href="#" class="icono-carrito">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <p class="slogan">PORQUE TODOS MERECEMOS DISFRUTAR DE UNA VIDA DULCE</p>
+            <div class="logo">
+                <h1 class="logo-sugar">SUGAR</h1>
+                <h1 class="logo-rush">RUSH</h1>
+            </div>
+            <div class="divisor">
+                ˜”*°•. ✦ .•°*”˜
+            </div>
+        </section>
+  
+        <section class="Tpos-de-postres">
+
+            <div class="postres">
+                <div class="cobertura-imagen">
+                    <img src="imagenes/images.jpg" alt="Galletas Sin Azúcar">
+                </div>
+                <h3 class="Titulo-postres">SIN AZÚCAR</h3>
+                <div class="divisor1">˜”*°•. ✦ .•°*”˜</div>
+            </div>
+
+
+            <div class="postres">
+                <div class="cobertura-imagen">
+                    <img src="imagenes/photo-1587314168485-3236d6710814.avif" alt="Postre Regular">
+                </div>
+                <h3 class="Titulo-postres">REGULARES</h3>
+                <div class="divisor1">˜”*°•. ✦ .•°*”˜</div>
+            </div>
+
+
+            <div class="postres">
+                <div class="cobertura-imagen">
+                    <img src="imagenes/images (1).jpg" alt="Postres Sin Harina">
+                </div>
+                <h3 class="Titulo-postres">SIN HARINA</h3>
+                <div class="divisor1">˜”*°•. ✦ .•°*”˜</div>
+            </div>
         </section>
 
-        <section>
-            <h4>Precio</h4>
-            <form>
-                <input type="number" placeholder="Mínimo" min="0">
-                <span>a</span>
-                <input type="number" placeholder="Máximo" min="0">
-                <button type="submit">Filtrar</button>
-            </form>
+
+        <footer class="footer">
+            <a href="#" class="red-social"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-x-twitter"></i></a>
+        </footer>
+        <div class="gingham-divider"></div>
+        <section class="titulo-2">
+            <h3>SOBRE NOSOTROS</h3>
+            <div class="divisor3">˜”*°•. ✦ .•°*”˜</div>
         </section>
+            <section class="nosotros">
+      <div class="texto-nosotros">
+        <h2>QUIENES SOMOS</h2>
+        <p>Somos un equipo de maestros pasteleros dedicados a crear postres y dulces de la mas alta calidad donde  el sabor excepcional se une con el bienestar.
+            nuestros productos son frescos y elaborados cuando usted lo pide.
+        </p>
+       </div>
+      <div class="imagen-nosotros">
+        <img src="imagenes/gettyimages-1479330210-612x612.jpg" alt="Postres">
+      </div>
+    </section>
+    <section class="nosotros2">
+      <div class="redes-nosotros2">
+        <h2>Contactanos</h2>
+            <a href="#" class="red-social"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-youtube"></i></a>
+       </div>
+      <div class="texto-nosotros2">
+        <h2>MISION</h2>
+        <p>Nuesta mision es democratizar el disfrute, elaboramos recetas innovadoras, nutritivas y libres de restricciones para que cualquier persona en el mundo, sin importar su eddad o condiciones
+            pueda disfrutar del lado mas dulce de la vida con total libertad, seguridad y cero culpa.</p>
+      </div>
+    </section>
 
-        <section>
-            <h4>Condición</h4>
-            <label><input type="checkbox" name="condicion" value="nuevo"> Nuevo</label><br>
-            <label><input type="checkbox" name="condicion" value="usado"> Usado</label>
-        </section>
-    </aside>
-
-    <!-- CONTENIDO PRINCIPAL: LISTADO DE PRODUCTOS -->
-    <main>
-        <h2>Resultados de búsqueda</h2>
-        <p>Mostrando 1-3 de 3 productos</p>
-
-        <!-- Producto 1 -->
-        <article>
-            <img src="https://via.placeholder.com/200" alt="Laptop Gamer">
-            <div>
-                <h3>Laptop Gamer de Alto Rendimiento 15.6"</h3>
-                <p><strong>$1,200.00</strong></p>
-                <p>Envío gratis a todo el país</p>
-                <p>¡Llega mañana!</p>
-                
-                <!-- Acciones funcionales -->
-                <form action="#carrito" method="POST">
-                    <label for="cant1">Cantidad:</label>
-                    <input type="number" id="cant1" name="cantidad" value="1" min="1" max="10">
-                    <br><br>
-                    <button type="submit">Agregar al carrito</button>
-                    <button type="button" onclick="alert('¡Comprado con 1 clic!')">Comprar ahora</button>
-                </form>
-            </div>
-        </article>
-
-        <hr>
-
-        <!-- Producto 2 -->
-        <article>
-            <img src="https://via.placeholder.com/200" alt="Smartphone">
-            <div>
-                <h3>Smartphone 128GB - Libre de fábrica</h3>
-                <p><strong>$450.00</strong></p>
-                <p>Envío gratis</p>
-                <p>Disponible en 3 colores</p>
-                
-                <form action="#carrito" method="POST">
-                    <label for="cant2">Cantidad:</label>
-                    <input type="number" id="cant2" name="cantidad" value="1" min="1" max="5">
-                    <br><br>
-                    <button type="submit">Agregar al carrito</button>
-                    <button type="button" onclick="alert('¡Comprado con 1 clic!')">Comprar ahora</button>
-                </form>
-            </div>
-        </article>
-
-        <hr>
-
-        <!-- Producto 3 -->
-        <article>
-            <img src="https://via.placeholder.com/200" alt="Audífonos Inalámbricos">
-            <div>
-                <h3>Audífonos Inalámbricos con Cancelación de Ruido</h3>
-                <p><strong>$89.99</strong></p>
-                <p>Envío en 2 días hábiles</p>
-                
-                <form action="#carrito" method="POST">
-                    <label for="cant3">Cantidad:</label>
-                    <input type="number" id="cant3" name="cantidad" value="1" min="1" max="20">
-                    <br><br>
-                    <button type="submit">Agregar al carrito</button>
-                    <button type="button" onclick="alert('¡Comprado con 1 clic!')">Comprar ahora</button>
-                </form>
-            </div>
-        </article>
-    </main>
-
-    <!-- PIE DE PÁGINA -->
-    <footer>
-        <p>&copy; 2026 MiTienda. Todos los derechos reservados.</p>
-        <nav>
-            <a href="#">Trabaja con nosotros</a> |
-            <a href="#">Términos y condiciones</a> |
-            <a href="#">Ayuda / PQR</a>
-        </nav>
-    </footer>
-
+    </div>  
 </body>
 </html>
