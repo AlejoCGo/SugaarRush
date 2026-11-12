@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta | Sugar Rush</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contenedor">
+        <nav class="barra-superior">
+            <a href="index.html" class="items-barra">
+                <i class="fa-solid fa-store"></i>
+                <span>Tienda</span>
+            </a>
+            <a href="login.html" class="items-barra" data-sesion>
+                <i class="fa-regular fa-user"></i>
+                <span>Iniciar Sesión</span>
+            </a>
+            <a href="index.html#sobre-nosotros" class="items-barra">
+                <i class="fa-solid fa-users"></i>
+                <span>Sobre Nosotros</span>
+            </a>
+        </nav>
+
+        <section class="auth-caratula">
+            <a href="index.html" class="auth-logo" aria-label="Volver al inicio de Sugar Rush">
+                <span class="logo-sugar">SUGAR</span>
+                <span class="logo-rush">RUSH</span>
+            </a>
+            <div class="divisor">˜”*°•. ✦ .•°*”˜</div>
+        </section>
+
+        <main class="auth-main">
+            <form class="auth-tarjeta" id="form-registro" novalidate>
+                <h2 class="auth-titulo">Crear cuenta</h2>
+                <p class="auth-subtitulo">Regístrate y elige tus postres sin azúcar, sin harina o regulares.</p>
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <div class="campo-input">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <div class="campo-input">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" autocomplete="email" required>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="clave">Contraseña</label>
+                    <div class="campo-input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="clave" name="clave" placeholder="Mínimo 6 caracteres" autocomplete="new-password" required>
+                        <button type="button" class="ver-clave" aria-label="Mostrar contraseña" data-ver="clave">
+                            <i class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="clave2">Confirmar contraseña</label>
+                    <div class="campo-input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="clave2" name="clave2" placeholder="Repite tu contraseña" autocomplete="new-password" required>
+                        <button type="button" class="ver-clave" aria-label="Mostrar contraseña" data-ver="clave2">
+                            <i class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <label class="check">
+                    <input type="checkbox" id="terminos" required>
+                    <span>Acepto los términos y condiciones</span>
+                </label>
+
+                <p class="mensaje" id="mensaje" role="alert" aria-live="polite"></p>
+
+                <button type="submit" class="boton-auth">Crear cuenta</button>
+
+                <p class="auth-cambio">¿Ya tienes cuenta? <a href="login.html">Iniciar sesión</a></p>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <a href="#" class="red-social"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="red-social"><i class="fa-brands fa-x-twitter"></i></a>
+        </footer>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
