@@ -18,9 +18,9 @@ Prototipo web de una tienda de postres accesibles: **sin azúcar**, **sin harina
 
 <!-- Sube las imágenes a una carpeta (por ejemplo "capturas/") y ajusta los nombres -->
 
-| Inicio | Iniciar sesión | Crear cuenta |
+| Inicio | Iniciar sesión | Crear cuenta | tienda | carrito | sobre nosotros |
 |---|---|---|
-| ![Inicio](capturas/inicio.png) | ![Login](capturas/login.png) | ![Registro](capturas/registro.png) |
+| ![Inicio](capturas/inicio.png) | ![iniciarsesion](capturas/iniciarsersion.png) | ![crearcuenta](capturas/crearcuenta.png) | ![tienda](capturas/crearcuenta.png) | ![carrito](capturas/crearcuenta.png) | ![sobrenosotros](capturas/crearcuenta.png) |
 
 ## Estructura del proyecto
 
