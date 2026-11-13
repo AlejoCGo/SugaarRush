@@ -28,6 +28,8 @@ SugaarRush/
 ├── index.html      # Página principal
 ├── login.html      # Iniciar sesión
 ├── registro.html   # Crear cuenta
+├── tienda.html   # Crear cuenta
+├── carrito.html   # Crear cuenta
 ├── styles.css      # Estilos generales
 ├── auth.css        # Estilos de login y registro
 ├── auth.js         # Lógica de registro, login y sesión
@@ -69,4 +71,8 @@ No hay servidor ni base de datos. Los usuarios y la sesión se guardan en el `lo
 
 ## Equipo
 
-<!-- Agrega aquí los nombres de los integrantes -->
+Samuel Damiel Rodriguez Farfan
+Andres Felipe Sanchez Herrera 
+Valeria Sofia Roa Avella
+Alejandro Chavarro Garcia
+   
