@@ -11,6 +11,7 @@ Prototipo web de una tienda de postres accesibles: **sin azúcar**, **sin harina
 - **Página principal** (`index.html`): carátula con el logo, las tres categorías de postres y la sección "Sobre Nosotros" con quiénes somos y la misión.
 - **Registro** (`registro.html`): crea una cuenta con nombre, correo y contraseña.
 - **Inicio de sesión** (`login.html`): entra con tu correo y contraseña.
+- **Carrito y métodos de pago** (`carrito.html`): el carrito se llena desde la tienda y se guarda en `localStorage`; incluye pago con tarjeta, PSE y contra-entrega.
 - **Sesión visible en la barra**: al iniciar sesión, el botón muestra tu nombre y permite salir.
 
 ## Capturas
@@ -28,8 +29,8 @@ SugaarRush/
 ├── index.html      # Página principal
 ├── login.html      # Iniciar sesión
 ├── registro.html   # Crear cuenta
-├── tienda.html   # Crear cuenta
-├── carrito.html   # Crear cuenta
+├── tienda.html     # Catálogo de productos
+├── carrito.html    # Carrito y métodos de pago
 ├── styles.css      # Estilos generales
 ├── auth.css        # Estilos de login y registro
 ├── auth.js         # Lógica de registro, login y sesión
@@ -64,15 +65,11 @@ No hay servidor ni base de datos. Los usuarios y la sesión se guardan en el `lo
 
 ## Próximos pasos
 
-- Carrito de compras conectado a la sesión
+- Carrito conectado a la sesión del usuario
 - Catálogo de productos por categoría con filtros
 - Backend real con contraseñas cifradas
 - Recuperación de contraseña
 
 ## Equipo
 
-Samuel Damiel Rodriguez Farfan
-Andres Felipe Sanchez Herrera 
-Valeria Sofia Roa Avella
-Alejandro Chavarro Garcia
-   
+<!-- Agrega aquí los nombres de los integrantes -->
