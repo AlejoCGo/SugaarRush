@@ -18,9 +18,18 @@ Prototipo web de una tienda de postres accesibles: **sin azúcar**, **sin harina
 
 <!-- Sube las imágenes a una carpeta (por ejemplo "capturas/") y ajusta los nombres -->
 
-| Inicio | Iniciar sesión | Crear cuenta | tienda | carrito | sobre nosotros |
-|---|---|---|
-| ![Inicio](capturas/inicio.png) | ![Iniciar sesion](capturas/iniciarsersion.png) | ![Crear cuenta](capturas/crearcuenta.png) | ![Tienda](capturas/crearcuenta.png) | ![Carrito](capturas/crearcuenta.png) | ![Sobre nosotros](capturas/crearcuenta.png) |
+<table>
+  <tr>
+    <td align="center"><b>Inicio</b><br><img src="capturas/inicio.png" alt="Inicio" width="250"></td>
+    <td align="center"><b>Iniciar sesión</b><br><img src="capturas/iniciarsersion.png" alt="Iniciar sesión" width="250"></td>
+    <td align="center"><b>Crear cuenta</b><br><img src="capturas/crearcuenta.png" alt="Crear cuenta" width="250"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tienda</b><br><img src="capturas/tienda.png" alt="Tienda" width="250"></td>
+    <td align="center"><b>Carrito</b><br><img src="capturas/carrito.png" alt="Carrito" width="250"></td>
+    <td align="center"><b>Sobre nosotros</b><br><img src="capturas/sobrenosotros.png" alt="Sobre nosotros" width="250"></td>
+  </tr>
+</table>
 
 ## Estructura del proyecto
 
@@ -72,4 +81,7 @@ No hay servidor ni base de datos. Los usuarios y la sesión se guardan en el `lo
 
 ## Equipo
 
-<!-- Agrega aquí los nombres de los integrantes -->
+Alejandro Chavarro Garcia 
+Andres Felipe Sanchez Herrera 
+Samuel Daniel Rodriguez Farfan 
+Valeria Sofia Roa Avella
